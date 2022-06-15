@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist",
+    "outDir": "./public",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "sourceMap": true,

@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/test-vercel",
+            "outputPath": "public",
             "index": "frontend/index.html",
             "main": "frontend/main.ts",
             "polyfills": "frontend/polyfills.ts",
