@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
 const product = require("./api/product");
+const path = require("path");
 
+app.use("/", express.static(path.join(process.cwd(), '/dist/test-vercel/')));
 app.use(express.json({ extended: false }));
-
 app.use("/api/product", product);
 
 const PORT = process.env.PORT || 8080;
