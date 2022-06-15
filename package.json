@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng build && node index.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
