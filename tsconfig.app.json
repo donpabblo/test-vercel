@@ -3,14 +3,13 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": [],
-    "allowSyntheticDefaultImports": true
+    "types": []
   },
   "files": [
-    "frontend/main.ts",
-    "frontend/polyfills.ts"
+    "src/main.ts",
+    "src/polyfills.ts"
   ],
   "include": [
-    "frontend/**/*.d.ts"
+    "src/**/*.d.ts"
   ]
 }
