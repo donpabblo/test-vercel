@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const product = require("./api/product");
+const product = require("./product");
 const path = require("path");
 
 app.use(express.static('public'));
